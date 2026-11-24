@@ -39,7 +39,7 @@ Your data is never sold or used for advertising.
 
 ## How long it is kept
 
-- **Conversation context** (the messages of a support thread, kept so Bumblebee can follow the conversation): stored on a server operated by Pollen Robotics in France and **deleted automatically after 30 days**.
+- **Conversation context** (the messages of a support thread, kept so Bumblebee can follow the conversation): kept **in memory only** on a server operated by Pollen Robotics in France, never written to disk, and **deleted automatically at most 30 days after the conversation started** (or earlier, when the server restarts).
 - **Opt-out list** (Discord user IDs of people who opted out): kept until you opt back in.
 - **Technical logs**: contain no message text, only metadata such as timestamps and processing costs.
 
